@@ -114,7 +114,12 @@ Remove-Item "C:\Users\Saf1Hckr\Documents\test\HR\employee_records.txt"
 | **File Deleted** | `...\HR\employee_records.txt` | `553` (syscheck) | **T1070.004** (File Deletion) | `Administrators` / `Saf1Hckr` (`powershell.exe`) |
 
 ---
+## 📸 Image Findings
 
+
+
+
+---
 ## 🔍 Key Findings & Security Insights
 1. **Zero-Latency Ingestion:** Wazuh's `realtime="yes"` flag leverages the Windows ReadDirectoryChangesW API, triggering immediate alert generation without waiting for the scheduled 300-second audit scan.
 2. **Attribution via Whodata:** Utilizing Microsoft SACL auditing, `whodata="yes"` captures exact process paths, parent PIDs, user SIDs, and account usernames responsible for modifications.
