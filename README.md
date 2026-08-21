@@ -116,7 +116,7 @@ Remove-Item "C:\Users\Saf1Hckr\Documents\test\HR\employee_records.txt"
 ---
 ## 📸 Image Findings
 
-
+![FIM](https://github.com/saf1Hckr/Real-Time-Windows-File-Integrity-Monitoring-FIM-with-Wazuh/blob/main/FIM%20Windows.png)
 
 
 ---
